@@ -1,0 +1,7 @@
+#spring:
+#  security:
+#    oauth2:
+#      resource:
+#        jwk:
+#          key-set-uri: https://dev-334545.oktapreview.com/oauth2/v1/keys
+spring.security.oauth2.resourceserver.jwt.issuer-uri: https://dev-334545.oktapreview.com/oauth2/default
